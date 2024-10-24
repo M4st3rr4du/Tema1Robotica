@@ -35,7 +35,7 @@ Laboratory tutor: [Radu Ioan Nedelcu](https://github.com/Pepi100)
 <summary>TASK</summary> 
  
   
-<img src="media/project 1/img/Screenshot 2024-10-23 210012.png" align="right" alt="Diagram" width="400">
+<img src="" alt="Diagram" width="400">
 
 
 
