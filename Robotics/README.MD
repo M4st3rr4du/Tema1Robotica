@@ -35,7 +35,7 @@ Laboratory tutor: [Radu Ioan Nedelcu](https://github.com/Pepi100)
 <summary>TASK</summary> 
  
   
-<img src="" alt="Diagram" width="400">
+<img src="https://github.com/M4st3rr4du/Tema1Robotica/blob/main/Robotics/poza%20robotics/diagrama%20robo.png" alt="Diagram" width="400">
 
 
 
