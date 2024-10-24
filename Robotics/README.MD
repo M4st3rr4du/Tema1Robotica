@@ -73,10 +73,10 @@ Long pressing the stop button will forcibly stop charging and reset the station 
 [Virtual Simulation] https://wokwi.com/projects/412621201971152897
 </br>
 
-[Code](https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/code/project%201/main.cpp)
+[Code](https://github.com/M4st3rr4du/Tema1Robotica/blob/main/Robotics/src/main.c)
 </br>
 
-[Video of the physical setup](https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/WhatsApp%20Video%202024-10-23%20at%2023.00.44_58cbeca5.mp4)
+[Video of the physical setup](https://github.com/M4st3rr4du/Tema1Robotica/blob/main/Robotics/clip%20rotobica.mp4)
 </br>
 
 #### Photo Gallery
