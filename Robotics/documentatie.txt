@@ -1,0 +1,52 @@
+Acest cod gestionează un sistem de încărcare format din patru LED-uri albastre și un LED RGB. Două butoane, denumite START și STOP, controlează pornirea și oprirea procesului de încărcare. LED-urile albastre clipesc în secvență pentru a indica progresul încărcării, în timp ce LED-ul RGB schimbă culorile pentru a afișa starea curentă (roșu în timpul încărcării, verde atunci când este oprit sau inactiv).
+
+Configurarea pinilor
+
+BLUE1_PIN (Pin 10): Controlează primul LED albastru.
+BLUE2_PIN (Pin 9): Controlează al doilea LED albastru.
+BLUE3_PIN (Pin 8): Controlează al treilea LED albastru.
+BLUE4_PIN (Pin 7): Controlează al patrulea LED albastru.
+RED_RGB_PIN (Pin 6): Controlează canalul roșu al LED-ului RGB.
+GREEN_RGB_PIN (Pin 5): Controlează canalul verde al LED-ului RGB.
+BLUE_RGB_PIN (Pin 4): Controlează canalul albastru al LED-ului RGB.
+START_PIN (Pin 2): Conectat la butonul de START.
+STOP_PIN (Pin 3): Conectat la butonul de STOP.
+Descrierea variabilelor
+
+buttonState: Păstrează starea actuală a butonului START.
+lastButtonState: Reține ultima stare a butonului START pentru debounce.
+lastDebounceTime: Înregistrează momentul ultimei modificări a stării butonului START.
+debounceDelay: Timpul pentru debounce (50ms).
+stopButtonState: Păstrează starea actuală a butonului STOP.
+lastStopButtonState: Reține ultima stare a butonului STOP pentru debounce.
+lastStopDebounceTime: Momentul ultimei schimbări a stării butonului STOP.
+stopButtonPressTime: Măsoară durata în care butonul STOP este apăsat.
+charging: Indică dacă încărcarea este activă.
+Funcțiile principale
+
+setup()
+Configurează toți pinii ca input sau output, activează rezistențele pull-up pentru butoane și inițializează LED-ul RGB pe verde (inactiv).
+
+loop()
+Monitorizează starea butonului START pentru a detecta apăsările prin debounce. Dacă butonul este apăsat, începe secvența de încărcare prin funcția startCharging(). De asemenea, verifică butonul STOP și oprește încărcarea dacă este apăsat mai mult de o secundă, apelând funcția stopCharging().
+
+startCharging()
+Activează secvența de încărcare și schimbă LED-ul RGB pe roșu pentru a indica acest lucru. LED-urile albastre clipesc succesiv pentru a simula progresul încărcării. La final, toate LED-urile albastre clipesc de trei ori pentru a semnala terminarea încărcării, iar LED-ul RGB revine la verde.
+
+checkStopButton()
+Verifică dacă butonul STOP este apăsat și, dacă este detectat, apelează funcția stopCharging() pentru a opri încărcarea.
+
+stopCharging()
+Oprește procesul de încărcare, stinge toate LED-urile albastre și LED-ul RGB, apoi clipeste LED-urile albastre de trei ori pentru a marca oprirea. LED-ul RGB se setează înapoi pe verde.
+
+Debounce
+
+Debouncing-ul previne activarea accidentală a butoanelor cauzată de zgomotul mecanic, validând schimbarea stării numai după ce aceasta rămâne constantă pentru o perioadă specificată (debounceDelay).
+
+Secvența de încărcare
+
+La apăsarea butonului START, LED-ul RGB devine roșu pentru a indica începerea încărcării. LED-urile albastre clipesc secvențial pentru a reprezenta progresul, iar la final toate clipesc de trei ori pentru a semnaliza finalizarea.
+
+Oprirea încărcării
+
+Apăsarea butonului STOP pentru mai mult de o secundă oprește încărcarea. LED-urile albastre clipesc de trei ori pentru a semnala oprirea, iar LED-ul RGB revine la verde (inactiv).
