@@ -1,10 +1,6 @@
-# Radu Nedelcu
+# Radu Cujbescu Radu
 
-<p>Hi! I`m a 21-year-old university student from Romania, passionate about computers and technology.</p>
-
-## Education
-
-I`m currently studying Computer Science at the Univeristy of Bucharest (2021 - 2024). 
+<p>Hi! I`m a 21-year-old university student. I am from Romania.I am passionate about computers and i want to make a career out of this. </p>
 
 
 # :open_file_folder: Tech Stack
