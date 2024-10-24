@@ -1,4 +1,4 @@
-# Radu Cujbescu Radu
+# Radu Cujbescu Stefan
 
 <p>Hi! I`m a 21-year-old university student. I am from Romania.I am passionate about computers and i want to make a career out of this. </p>
 
@@ -7,13 +7,6 @@
 Introduction to Robotics Course
 </h1>
 
-<p align="center">
-Everything related to the course.
-</p>
-
-
-
-## About
 
 #### Course Objectives:
 1. Development of POC (Proof of Concept) and Final Product Development Skills
