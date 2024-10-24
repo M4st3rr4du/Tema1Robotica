@@ -11,11 +11,7 @@ Introduction to Robotics Course
 Everything related to the course.
 </p>
 
-<p align="center">
-  :microscope: <a href="#about">About</a>&#160;
-  :pencil: <a href="#content">Content</a>&#160;
-  :paperclip:<a href="#resources">Others</a>
-</p>
+
 
 ## About
 
