@@ -23,7 +23,7 @@ Laboratory tutor: [Radu Ioan Nedelcu](https://github.com/Pepi100)
 
 ## Content
 
-### PROJECT 1: Electric vehicle charging system
+### PROJECT 1: EV Charger
 <details>
 <summary>TASK</summary> 
  
