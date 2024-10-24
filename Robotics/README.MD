@@ -88,4 +88,9 @@ Long pressing the stop button will forcibly stop charging and reset the station 
 </details>
 
 
+### PROJECT 2: Electric vehicle charging system
+<details>
+<summary>TASK</summary> 
+
+
 
